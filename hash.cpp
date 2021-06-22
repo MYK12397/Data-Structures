@@ -40,7 +40,7 @@ void initarr()
 {
 	int i;
 	capacity=getprime(capacity);
-	arr=new data;
+	arr=new data[capacity];
 	for(i=0;i<capacity;++i)
 	{
 		arr[i].key=0;
